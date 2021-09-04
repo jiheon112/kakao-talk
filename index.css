@@ -1,52 +1,11 @@
 @import url(reset.css);
+@import url(login.css);
+@import url(friend.css);
 
 .heading-bar {
   display: flex;
   justify-content: flex-end;
   margin-top: 10px;
-}
-.kakaologo-loca {
-  display: flex;
-  justify-content: center;
-}
-
-.fa-cog,
-.fa-grip-lines,
-.fa-times {
-  margin-right: 15px;
-}
-
-.kakao-logo {
-  width: 150px;
-  height: 150px;
-  margin-top: 60px;
-  margin-bottom: 30px;
-}
-.background {
-  background-color: #fae301;
-  height: 100vh;
-}
-
-.login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 60px;
-}
-
-.login-form input {
-  padding: 15px 10px;
-  border: none;
-  font-size: 12px;
-}
-
-.login-form input:nth-child(1) {
-  border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
-}
-
-.login-submit {
-  margin-top: 10px;
-}
-
-.login-form input:focus {
-  outline: none;
+  position: fixed;
+  right: 0;
 }
