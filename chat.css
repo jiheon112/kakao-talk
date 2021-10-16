@@ -1,0 +1,56 @@
+.chat-message {
+  margin-left: 10px;
+  font-size: 13px;
+  color: rgb(189, 188, 183);
+}
+
+.chat-second-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#chatting-color {
+  background-color: #b2c7d9;
+}
+
+.chatting-with-people {
+  margin-top: 50px;
+}
+
+.people {
+  display: flex;
+}
+.people-message > div {
+  background-color: white;
+  padding: 8px;
+}
+
+.people-message {
+  margin-left: 10px;
+}
+
+.myself {
+  display: flex;
+  justify-content: space-between;
+}
+
+.no {
+  background-color: yellow;
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.myself-comment {
+  display: flex;
+}
+
+.no-number {
+  display: flex;
+  justify-content: flex-end;
+  color: yellow;
+}
+
+.no-time {
+  margin-right: 10px;
+}
